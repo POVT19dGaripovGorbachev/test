@@ -1,0 +1,134 @@
+p{
+
+    
+    width: 300px;
+    text-align:   justify;
+}
+h1{
+
+    color: green;
+    text-align: right;
+}
+h2
+{
+color: blue;
+font-style: italic;
+width: 300px;
+text-align: center;
+
+}
+h3{
+font-size: 16px;
+    color: red;
+}
+table{
+    width: 500px;
+}
+th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+
+
+.task-10{
+    color: black;
+}
+
+.c-green{
+    color: green;
+}
+
+.text-center{
+    text-align: center;
+}
+h1,h2,h3{
+    text-align: center;
+}
+ ul li i { color: red;
+
+}
+p i {
+    color: green;
+}
+p b i{
+    color: red;
+}
+li>b{
+
+    color: red;
+}
+.odd{
+    color: red;
+}
+.eve{
+    color: green;
+}
+.eee{
+    color: red;
+}
+.xxx{
+    font-size: 30px;
+}
+.red-div{
+    color: red;
+}
+.blue-div{
+    color: blue;
+}
+.green-div{
+    color: green;
+}
+h2.header{
+    width: 40px;
+}
+h3.header{
+    width: 30px;
+}
+i.eee{
+    color: red;
+}
+.eee p.bbb {
+    color: red;
+}
+
+
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.large {
+    font-size: 30px;
+}
+.small {
+    font-size: 20px;
+}
+h2.bbb.zzz {
+    color: red;
+}
+h2#elem.bbb {
+    color: red;
+}
+section.task21>div>p{
+    color:green;
+}
+#block>p.bbb,p.xxx{
+    color: green;
+}
+a:hover {
+     text-decoration: none;
+     background-color: #555;
+     color: red;
+   } 
+   a:link{
+       color: blue;
+   }
+   a:visited{
+       color: green;
+   }
+   a:active{
+       color: black;
+   }
