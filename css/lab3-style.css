@@ -86,13 +86,13 @@ border: 5px solid black;
 .task4__div-child3{
     border: 3px solid green; 
     position: absolute;
-    bottom: -80px;
+    bottom: 120px;
 
 } 
 .task4__div-child4 {
     border: 3px solid green; 
     position: absolute;
-    bottom: -80px;
+    bottom: 120px;
     left: 630px;
 
 }
