@@ -6,6 +6,9 @@
     background-color: plum;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    top: 0;
+    left:0;
     
     
     
@@ -31,37 +34,104 @@
         width: 8%;
     }
 .body{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
-.bs{ padding: 20px;
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.card{  margin: 10px;
+    width: 200px;
+    height: 350px;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+
+}
+.svg
+{
+    width: 100%;
+    height: 33%;
+    
+   
+}
+.twitter{display: block;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    
+    
+   
+}
+.youtube{
+    width: 30%;margin-top: 15%;
+
+}
+.instagram{
+    width: 30%;
+    fill: black;
+    
+}
+
+
+.card a{
+    display: inline-block;
+    
+   position: absolute;
+   left: 19px;
+   bottom: 20px;
+   color: white;
+   background-color: black;
+    text-decoration: none;
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+
+}
+
+.cards{
+    margin: 0 auto;
+    width: 60%;
     display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
-    align-items: flex-start;
-    width: 50%;
-    margin: 10px auto;
+    flex-wrap: wrap;
 }
-.bs1{
-    background-color: black; padding: 40px;
+.card:hover{
+    fill: white;
+    background-color:deeppink;
+    color: white;
 }
-.bs2{
-    background-color: black;padding: 40px;
+.card:hover a{
+   
+    background-color:white;
+    color: deeppink;
+    border: none;
+    
+}svg
+ path {
+        stroke:inherit;
+        stroke-width:inherit;
+        fill:inherit;
+        }
+.card:hover #XMLID_81_,.card:hover #XMLID_83_, .card:hover #XMLID_17_{
+fill: white;
 }
-.bs3{
-    background-color: black;padding: 40px;
-}
-
-
 
     @media screen and (max-width: 600px) {
         
         .logo{
-            width: 30%;
+            width: 20%;
             
             
         }
-        
+        .cards{
+            flex-wrap: wrap;
+        }
         
         .menu{flex-direction: column;}
       }
